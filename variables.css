@@ -7,7 +7,7 @@
  * under the MIT license
  */
 
-:root {
+ :root {
   /** dark **/
 
   --theme_dark--main: rgb(47, 52, 55);
@@ -49,9 +49,9 @@
   --theme_dark--text-block_line-height: 1.5;
   --theme_dark--text-block_margin-top: 1px;
 
-  --theme_dark--scrollbar: #505457;
+  --theme_dark--scrollbar: pink;
   --theme_dark--scrollbar-border: transparent;
-  --theme_dark--scrollbar_hover: #696d6f;
+  --theme_dark--scrollbar_hover: rgb(255, 192, 241);
 
   --theme_dark--card: rgb(63, 68, 71);
   --theme_dark--gallery: rgba(255, 255, 255, 0.05);
@@ -63,10 +63,10 @@
   --theme_dark--button_close: #e81123;
   --theme_dark--button_close-fill: white;
 
-  --theme_dark--selected: rgba(46, 170, 220, 0.2);
-  --theme_dark--primary: rgb(46, 170, 220);
-  --theme_dark--primary_hover: rgb(6, 156, 205);
-  --theme_dark--primary_click: rgb(0, 141, 190);
+  --theme_dark--selected:#f7c8ff33;
+  --theme_dark--primary: rgb(113, 46, 220);
+  --theme_dark--primary_hover: hsl(350deg 40% 70% / 43%);
+  --theme_dark--primary_click: hsl(350deg 40% 70% / 43%);
   --theme_dark--primary_indicator: rgb(235, 87, 87);
 
   --theme_dark--option-color: white;
