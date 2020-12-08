@@ -6,18 +6,6 @@
 
 :root {
 
-  /** dark **/ 
-  --theme_dark--scrollbar: pink;
-  --theme_dark--scrollbar-border: transparent;
-  --theme_dark--scrollbar_hover: rgb(255, 192, 241);
-  --theme_dark--selected:#f7c8ff33;
-  --theme_dark--primary: rgb(113, 46, 220);
-  --theme_dark--primary_hover: hsl(350deg 40% 70% / 43%);
-  --theme_dark--primary_click: hsl(350deg 40% 70% / 43%);
-  --theme_dark--text: pink;
-  --theme_dark--text_ui: #ffa5fc;
-  --theme_dark--text_ui_info: hsl(260deg 40% 70%);
-  
   /** light **/
   --theme_light--sidebar:#ff14932b;
   --theme_light--scrollbar: #ff14ef;
@@ -28,19 +16,6 @@
   --theme_light--primary: #fd98f5;
   --theme_light--primary_hover: deeppink;
   --theme_light--primary_click: #fd98f5;
-}
-
-.notion-dark-theme {
-  --theme--scrollbar: var(--theme_dark--scrollbar);
-  --theme--scrollbar-border: var(--theme_dark--scrollbar-border);
-  --theme--scrollbar_hover: var(--theme_dark--scrollbar_hover);
-  --theme--selected: var(--theme_dark--selected);
-  --theme--primary: var(--theme_dark--primary);
-  --theme--primary_hover: var(--theme_dark--primary_hover);
-  --theme--primary_click: var(--theme_dark--primary_click);
-  --theme--text: var(--theme_dark--text);
-  --theme--text_ui: var(--theme_dark--text_ui);
-  --theme--text_ui_info: var(--theme_dark--text_ui_info);
 }
 
 .notion-light-theme {
