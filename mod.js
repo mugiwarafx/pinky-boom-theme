@@ -1,5 +1,5 @@
 /*
- * Pinky Booooom Theme! ["soft" pinky boom 😂]
+ * Pinky Booooom Theme!
  * (c) 2020 mugiwarafx (https://github.com/mugiwarafx)
  * under the MIT license
  */
