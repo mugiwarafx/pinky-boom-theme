@@ -8,7 +8,7 @@
 
   /** light **/
 
-  --light_pinky-deeppink: deeppink;
+  --light_pinky-deep-pink: deeppink;
 
   --light_pinky-lighten-1: #fce4ec;
   --light_pinky-lighten-2: #f8bbd0;
@@ -20,7 +20,7 @@
   --light_pinky-alt-colors-white: #fefafa;
   --light_pinky-alt-colors-transparent: transparent;
 
-  --light_pinky-purple: #1e114e;
+  --light_pinky-deep-purple: #1e114e;
 
   --light_pinky-trans-purple-1: #37352f06;
   --light_pinky-trans-purple-2: #8868ff1a;
@@ -90,7 +90,7 @@
   --theme_light--button_close: #e81123;
   --theme_light--button_close-fill: var(--light_pinky-white);
   --theme_light--selected: var(--thene_pinky--purple-1-shadows);
-  --theme_light--primary: var(--light_pinky-deeppink);
+  --theme_light--primary: var(--light_pinky-deep-pink);
   --theme_light--primary_hover: var(--light_pinky-lighten-4);
   --theme_light--primary_click: var(--light_pinky-lighten-4);
   --theme_light--primary_indicator: rgb(235, 87, 87);
@@ -102,9 +102,9 @@
   --theme_light--option_active-background: var(--theme_light--primary);
   --theme_light--danger_text: rgb(235, 87, 87);
   --theme_light--danger_border: rgba(235, 87, 87, 0.5);
-  --theme_light--text: var(--theme_pinky--alt-colors-black);
-  --theme_light--text_ui: var(--light_pinky-purple);
-  --theme_light--text_ui_info: var(--light_pinky-deeppink);
+  --theme_light--text: var(--theme_light--text);
+  --theme_light--text_ui: var(--light_pinky-deep-purple);
+  --theme_light--text_ui_info: var(--light_pinky-deep-pink);
 
   --theme_light--text_gray: rgb(155, 154, 151);
   --theme_light--text_brown: rgb(100, 71, 58);
@@ -113,7 +113,7 @@
   --theme_light--text_green: rgb(15, 123, 108);
   --theme_light--text_blue: rgb(11, 110, 153);
   --theme_light--text_purple: var(--light_pinky-purple);
-  --theme_light--text_pink: var(--light_pinky-deeppink);
+  --theme_light--text_pink: var(--light_pinky-deep-pink);
   --theme_light--text_red: rgb(224, 62, 62);
 
   --theme_light--bg-text: var(--theme_light--text);
@@ -217,15 +217,50 @@
 
   /** dark **/ 
 
-  --thene_pinky--alt-colors-black: #141518;
-  --theme_pinky--dark-purple: #0c061f;
+  --dark_pinky-deep-pink: deeppink;
+  --dark_pinky-default-pink: pink;
+
+  --dark_pinky-lighten-1: lightpink;
+  --dark_pinky-lighten-2: #ffc0f1;
+  --dark_pinky-lighten-3: #ffa5fc;
+
+  --dark_pinky-alt-colors-black: #141518;
+  --dark_pinky-alt-colors-darkgray: #272d2f;
+  --dark_pinky-alt-colors-transparent: transparent;
+  --dark_pinky-alt-colors-light-transp-1: #ffffff0d;
+  --dark_pinky-alt-colors-light-transp-2: #ffffff1a;
+
+  --dark_pinky-purple-1: #0c061f;
+  --dark_pinky-purple-2: #65569e;
+  --dark_pinky-purple-3: #712edc;
+  --dark_pinky-purple-4: #a894d1;
+
+  --dark_pinky-trans-purple-1: #0c061f99;
+  --dark_pinky-trans-purple-2: #ff14935e;
+
+  --dark_pinky-trans-1: #f8bbd033;
+  --dark_pinky-trans-2: #f8bbd066;
+  --dark_pinky-trans-3: #d1949e6e;
+  --dark_pinky-trans-4: #ff149300;
+
+  --dark_pinky-gray: rgba(128, 128, 128, 1);
+  --dark_pinky-brown: rgba(165, 42, 42, 1);
+  --dark_pinky-orange: rgba(255, 166, 0, 1);
+  --dark_pinky-yellow: rgba(255, 255, 0, 1);
+  --dark_pinky-green: rgba(0, 255, 0, 1);
+  --dark_pinky-blue: rgba(0, 255, 255, 1);
+  --dark_pinky-purple: rgba(155, 0, 255, 1);
+  --dark_pinky-pink: rgba(255, 20, 145, 1);
+  --dark_pinky-red: rgba(255, 0, 0, 1);
+  --dark_pinky-black: black;
+  --dark_pinky-white: white;
   
-  --theme_dark--main: var(--thene_pinky--alt-colors-black);
-  --theme_dark--sidebar: var(--theme_pinky--dark-purple);
-  --theme_dark--overlay: rgba(12, 6, 31, 0.6);
-  --theme_dark--dragarea: #272d2f;
-  --theme_dark--box-shadow: lightpink 0px 0px 0px 1px, rgb(248 187 208 / 0.2) 0px 2px 4px;
-  --theme_dark--box-shadow_strong: lightpink 0px 0px 0px 1px, rgb(248 187 208 / 0.2) 0px 3px 6px, rgb(248 187 208 / 0.4) 0px 9px 24px;
+  --theme_dark--main: var(--dark_pinky-alt-colors-black);
+  --theme_dark--sidebar: var(--dark_pinky-purple-1);
+  --theme_dark--overlay: var(--dark_pinky-trans-purple-1);
+  --theme_dark--dragarea: var(--dark_pinky-alt-colors-darkgray);
+  --theme_dark--box-shadow: var(--dark_pinky-lighten-1) 0px 0px 0px 1px, var(--dark_pinky-trans-1) 0px 2px 4px;
+  --theme_dark--box-shadow_strong: var(--dark_pinky-lighten-1) 0px 0px 0px 1px, var(--dark_pinky-trans-1) 0px 3px 6px, var(--dark_pinky-trans-2) 0px 9px 24px;
   
   --theme_dark--page_normal-width: 900px;
   --theme_dark--page_full-width: 100%;
@@ -234,6 +269,7 @@
   --theme_dark--preview-width: 977px;
   --theme_dark--preview-padding: 8rem;
   --theme_dark--preview_banner-height: 20vh;
+
   --theme_dark--font_sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Apple Color Emoji', Arial, sans-serif, 'Segoe UI Emoji', 'Segoe UI Symbol';
   --theme_dark--font_serif: Lyon-Text, Georgia, YuMincho, 'Yu Mincho', 'Hiragino Mincho ProN', 'Hiragino Mincho Pro', 'Songti TC', 'Songti SC', SimSun, 'Nanum Myeongjo', NanumMyeongjo, Batang, serif;
   --theme_dark--font_mono: iawriter-mono, Nitti, Menlo, Courier, monospace;
@@ -252,129 +288,124 @@
   --theme_dark--text-block_line-height: 1.5;
   --theme_dark--text-block_margin-top: 1px;
 
-  --theme_dark--scrollbar: pink;
+  --theme_dark--scrollbar: var(--dark_pinky-default-pink);
   --theme_dark--scrollbar-border: transparent;
-  --theme_dark--scrollbar_hover: rgb(255, 192, 241);
-
-  --theme_dark--card: #0c061f;
-  --theme_dark--gallery: rgba(255, 255, 255, 0.05);
-  --theme_dark--select_input: rgba(255, 255, 255, 0.1);
-  --theme_dark--table-border: rgba(255, 255, 255, 0.1);
-  --theme_dark--ui-border: deeppink;
-  --theme_dark--interactive_hover: #65569e;
+  --theme_dark--scrollbar_hover: var(--dark_pinky-lighten-2);
+  --theme_dark--card: var(--dark_pinky-purple-1);
+  --theme_dark--gallery: var(--dark_pinky-alt-colors-light-transp-1);
+  --theme_dark--select_input: var(--dark_pinky-alt-colors-light-transp-2);
+  --theme_dark--table-border: var(--dark_pinky-alt-colors-light-transp-2);
+  --theme_dark--ui-border: var(--dark_pinky-deep-pink);
+  --theme_dark--interactive_hover: var(--dark_pinky-purple-2);
   --theme_dark--interactive_hover-border: transparent;
   --theme_dark--button_close: #e81123;
-  --theme_dark--button_close-fill: white;
-
-  --theme_dark--selected:#ff14935e;
-  --theme_dark--primary: rgb(113, 46, 220);
-  --theme_dark--primary_hover: hsl(350deg 40% 70% / 43%);
-  --theme_dark--primary_click: hsl(350deg 40% 70% / 43%);
+  --theme_dark--button_close-fill: var(--dark_pinky-white);
+  --theme_dark--selected:var(--dark_pinky-trans-purple-2);
+  --theme_dark--primary: var(--dark_pinky-purple-3);
+  --theme_dark--primary_hover: var(--dark_pinky-trans-3);
+  --theme_dark--primary_click: var(--dark_pinky-trans-3);
   --theme_dark--primary_indicator: rgb(235, 87, 87);
-
-  --theme_dark--option-color: deeppink;
-  --theme_dark--option-background: #ff149300;
-  --theme_dark--option_active-color: white;
+  --theme_dark--option-color: var(--dark_pinky-deep-pink);
+  --theme_dark--option-background: var(--dark_pinky-trans-4);
+  --theme_dark--option_active-color: var(--dark_pinky-white);
   --theme_dark--option_active-background: var(--theme_dark--primary);
-  --theme_dark--option_hover-color: deeppink;
-  --theme_dark--option_hover-background: var(--thene_pinky--alt-colors-black);
-
+  --theme_dark--option_hover-color: var(--dark_pinky-deep-pink);
+  --theme_dark--option_hover-background: var(--dark_pinky-alt-colors-black);
   --theme_dark--danger_text: rgb(235, 87, 87);
   --theme_dark--danger_border: rgba(235, 87, 87, 0.5);
+  --theme_dark--text: var(--dark_pinky-default-pink);
+  --theme_dark--text_ui: var(--dark_pinky-lighten-3);
+  --theme_dark--text_ui_info: var(--dark_pinky-purple-4);
 
-  --theme_dark--text: pink;
-  --theme_dark--text_ui: #ffa5fc;
-  --theme_dark--text_ui_info: hsl(260deg 40% 70%);
-
-  --theme_dark--text_gray: rgba(128, 128, 128, 1);
-  --theme_dark--text_brown: rgba(165, 42, 42, 1);
-  --theme_dark--text_orange: rgba(255, 166, 0, 1);
-  --theme_dark--text_yellow: rgba(255, 255, 0, 1);
-  --theme_dark--text_green: rgba(0, 255, 0, 1);
-  --theme_dark--text_blue: rgba(0, 255, 255, 1);
-  --theme_dark--text_purple: rgba(155, 0, 255, 1);
-  --theme_dark--text_pink: rgba(255, 20, 145, 1);
-  --theme_dark--text_red: rgba(255, 0, 0, 1);
+  --theme_dark--text_gray: --dark_pinky-gray;
+  --theme_dark--text_brown: var(--dark_pinky-brown);
+  --theme_dark--text_orange: var(--dark_pinky-orange);
+  --theme_dark--text_yellow: var(--dark_pinky-yellow);
+  --theme_dark--text_green: var(--dark_pinky-green);
+  --theme_dark--text_blue: var(--dark_pinky-blue);
+  --theme_dark--text_purple: var(--dark_pinky-purple);
+  --theme_dark--text_pink: var(--dark_pinky-pink);
+  --theme_dark--text_red: var(--dark_pinky-red);
 
   --theme_dark--bg-text: var(--theme_dark--text);
-  --theme_dark--bg_gray: rgba(128, 128, 128, 1);
-  --theme_dark--bg_gray-text: white;
-  --theme_dark--bg_brown: rgba(165, 42, 42, 1);
-  --theme_dark--bg_brown-text: white;
-  --theme_dark--bg_orange: rgba(255, 166, 0, 1);
-  --theme_dark--bg_orange-text: black;
-  --theme_dark--bg_yellow: rgba(255, 255, 0, 1);
-  --theme_dark--bg_yellow-text: black;
-  --theme_dark--bg_green: rgba(0, 255, 0, 1);
-  --theme_dark--bg_green-text: black;
-  --theme_dark--bg_blue: rgba(0, 255, 255, 1);
-  --theme_dark--bg_blue-text: black;
-  --theme_dark--bg_purple: rgba(155, 0, 255, 1);
-  --theme_dark--bg_purple-text:white;
-  --theme_dark--bg_pink: rgba(255, 20, 145, 1);
-  --theme_dark--bg_pink-text: white;
-  --theme_dark--bg_red: rgba(255, 0, 0, 1);
-  --theme_dark--bg_red-text: white;
+  --theme_dark--bg_gray: --dark_pinky-gray;
+  --theme_dark--bg_gray-text: var(--dark_pinky-white);
+  --theme_dark--bg_brown: var(--dark_pinky-brown);
+  --theme_dark--bg_brown-text: var(--dark_pinky-white);
+  --theme_dark--bg_orange: var(--dark_pinky-orange);
+  --theme_dark--bg_orange-text: var(--dark_pinky-black);
+  --theme_dark--bg_yellow: var(--dark_pinky-yellow);
+  --theme_dark--bg_yellow-text: var(--dark_pinky-black);
+  --theme_dark--bg_green: var(--dark_pinky-green);
+  --theme_dark--bg_green-text: var(--dark_pinky-black);
+  --theme_dark--bg_blue: var(--dark_pinky-blue);
+  --theme_dark--bg_blue-text: var(--dark_pinky-black);
+  --theme_dark--bg_purple: var(--dark_pinky-purple);
+  --theme_dark--bg_purple-text:var(--dark_pinky-white);
+  --theme_dark--bg_pink: var(--dark_pinky-pink);
+  --theme_dark--bg_pink-text: var(--dark_pinky-white);
+  --theme_dark--bg_red: var(--dark_pinky-red);
+  --theme_dark--bg_red-text: var(--dark_pinky-white);
 
   --theme_dark--line-text: var(--theme_dark--text);
   --theme_dark--line_gray: rgb(69, 75, 78);
-  --theme_dark--line_gray-text: black;
-  --theme_dark--line_brown: rgba(165, 42, 42, 1);
-  --theme_dark--line_brown-text: black;
-  --theme_dark--line_orange: rgba(255, 166, 0, 1);
-  --theme_dark--line_orange-text: black;
-  --theme_dark--line_yellow: rgba(255, 255, 0, 1);
-  --theme_dark--line_yellow-text: black;
-  --theme_dark--line_green: rgba(0, 255, 0, 1);
-  --theme_dark--line_green-text: black;
-  --theme_dark--line_blue: rgba(0, 255, 255, 1);
-  --theme_dark--line_blue-text: black;
-  --theme_dark--line_purple: rgba(155, 0, 255, 1);
-  --theme_dark--line_purple-text: black;
-  --theme_dark--line_pink: rgba(255, 20, 145, 1);
-  --theme_dark--line_pink-text: black;
-  --theme_dark--line_red: rgba(255, 0, 0, 1);
-  --theme_dark--line_red-text: black;
+  --theme_dark--line_gray-text: var(--dark_pinky-black);
+  --theme_dark--line_brown: var(--dark_pinky-brown);
+  --theme_dark--line_brown-text: var(--dark_pinky-black);
+  --theme_dark--line_orange: var(--dark_pinky-orange);
+  --theme_dark--line_orange-text: var(--dark_pinky-black);
+  --theme_dark--line_yellow: var(--dark_pinky-yellow);
+  --theme_dark--line_yellow-text: var(--dark_pinky-black);
+  --theme_dark--line_green: var(--dark_pinky-green);
+  --theme_dark--line_green-text: var(--dark_pinky-black);
+  --theme_dark--line_blue: var(--dark_pinky-blue);
+  --theme_dark--line_blue-text: var(--dark_pinky-black);
+  --theme_dark--line_purple: var(--dark_pinky-purple);
+  --theme_dark--line_purple-text: var(--dark_pinky-black);
+  --theme_dark--line_pink: var(--dark_pinky-pink);
+  --theme_dark--line_pink-text: var(--dark_pinky-black);
+  --theme_dark--line_red: var(--dark_pinky-red);
+  --theme_dark--line_red-text: var(--dark_pinky-black);
 
   --theme_dark--select-text: var(--theme_dark--text);
   --theme_dark--select_gray: rgba(128, 128, 128, 0.25);
-  --theme_dark--select_gray-text: white;
-  --theme_dark--select_brown: rgba(165, 42, 42, 1);
-  --theme_dark--select_brown-text: white;
-  --theme_dark--select_orange: rgba(255, 166, 0, 1);
-  --theme_dark--select_orange-text: black;
-  --theme_dark--select_yellow: rgba(255, 255, 0, 1);
-  --theme_dark--select_yellow-text: black;
-  --theme_dark--select_green: rgba(0, 255, 0, 1);
-  --theme_dark--select_green-text: black;
-  --theme_dark--select_blue: rgba(0, 255, 255, 1);
-  --theme_dark--select_blue-text: black;
-  --theme_dark--select_purple: rgba(155, 0, 255, 1);
-  --theme_dark--select_purple-text: white;
-  --theme_dark--select_pink: rgba(255, 20, 145, 1);
-  --theme_dark--select_pink-text: white;
-  --theme_dark--select_red: rgba(255, 0, 0, 1);
-  --theme_dark--select_red-text: white;
+  --theme_dark--select_gray-text: var(--dark_pinky-white);
+  --theme_dark--select_brown: var(--dark_pinky-brown);
+  --theme_dark--select_brown-text: var(--dark_pinky-white);
+  --theme_dark--select_orange: var(--dark_pinky-orange);
+  --theme_dark--select_orange-text: var(--dark_pinky-black);
+  --theme_dark--select_yellow: var(--dark_pinky-yellow);
+  --theme_dark--select_yellow-text: var(--dark_pinky-black);
+  --theme_dark--select_green: var(--dark_pinky-green);
+  --theme_dark--select_green-text: var(--dark_pinky-black);
+  --theme_dark--select_blue: var(--dark_pinky-blue);
+  --theme_dark--select_blue-text: var(--dark_pinky-black);
+  --theme_dark--select_purple: var(--dark_pinky-purple);
+  --theme_dark--select_purple-text: var(--dark_pinky-white);
+  --theme_dark--select_pink: var(--dark_pinky-pink);
+  --theme_dark--select_pink-text: var(--dark_pinky-white);
+  --theme_dark--select_red: var(--dark_pinky-red);
+  --theme_dark--select_red-text: var(--dark_pinky-white);
 
   --theme_dark--callout-text: var(--theme_dark--text);
   --theme_dark--callout_gray: rgba(128, 128, 128, 0.25);
-  --theme_dark--callout_gray-text:white;
-  --theme_dark--callout_brown: rgba(165, 42, 42, 1);
-  --theme_dark--callout_brown-text: white;
-  --theme_dark--callout_orange: rgba(255, 166, 0, 1);
-  --theme_dark--callout_orange-text: black;
-  --theme_dark--callout_yellow: rgba(255, 255, 0, 1);
-  --theme_dark--callout_yellow-text: black;
-  --theme_dark--callout_green:rgba(0, 255, 0, 1);
-  --theme_dark--callout_green-text: black;
-  --theme_dark--callout_blue: rgba(0, 255, 255, 1);
-  --theme_dark--callout_blue-text: black;
-  --theme_dark--callout_purple: rgba(155, 0, 255, 1);
-  --theme_dark--callout_purple-text: white;
-  --theme_dark--callout_pink: rgba(255, 20, 145, 1);
-  --theme_dark--callout_pink-text: white;
-  --theme_dark--callout_red: rgba(255, 0, 0, 1);
-  --theme_dark--callout_red-text: white;
+  --theme_dark--callout_gray-text:var(--dark_pinky-white);
+  --theme_dark--callout_brown: var(--dark_pinky-brown);
+  --theme_dark--callout_brown-text: var(--dark_pinky-white);
+  --theme_dark--callout_orange: var(--dark_pinky-orange);
+  --theme_dark--callout_orange-text: var(--dark_pinky-black);
+  --theme_dark--callout_yellow: var(--dark_pinky-yellow);
+  --theme_dark--callout_yellow-text: var(--dark_pinky-black);
+  --theme_dark--callout_green:var(--dark_pinky-green);
+  --theme_dark--callout_green-text: var(--dark_pinky-black);
+  --theme_dark--callout_blue: var(--dark_pinky-blue);
+  --theme_dark--callout_blue-text: var(--dark_pinky-black);
+  --theme_dark--callout_purple: var(--dark_pinky-purple);
+  --theme_dark--callout_purple-text: var(--dark_pinky-white);
+  --theme_dark--callout_pink: var(--dark_pinky-pink);
+  --theme_dark--callout_pink-text: var(--dark_pinky-white);
+  --theme_dark--callout_red: var(--dark_pinky-red);
+  --theme_dark--callout_red-text: var(--dark_pinky-white);
 
   --theme_dark--code_inline-text: #eb5757;
   --theme_dark--code_inline-background: rgba(135, 131, 120, 0.15);
