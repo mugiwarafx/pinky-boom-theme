@@ -143,7 +143,7 @@
   --theme_light--select-text: var(--theme_light--text);
   --theme_light--select_gray: rgba(128, 128, 128, 0.25);
   --theme_light--select_gray-text: white;
-  --theme_light--select_brown: rgba(165, 42, 42, 0.5);;
+  --theme_light--select_brown: rgba(165, 42, 42, 0.5);
   --theme_light--select_brown-text: white;
   --theme_light--select_orange: rgba(255, 166, 0, 0.5);
   --theme_light--select_orange-text: black;
@@ -163,7 +163,7 @@
   --theme_light--callout-text: var(--theme_light--text);
   --theme_light--callout_gray: rgba(128, 128, 128, 0.25);
   --theme_light--callout_gray-text: black;
-  --theme_light--callout_brown: rgba(165, 42, 42, 0.5);;
+  --theme_light--callout_brown: rgba(165, 42, 42, 0.5);
   --theme_light--callout_brown-text: white;
   --theme_light--callout_orange: rgba(255, 166, 0, 0.5);
   --theme_light--callout_orange-text: black;
