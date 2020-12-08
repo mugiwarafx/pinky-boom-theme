@@ -32,7 +32,7 @@
   
   --theme_light--main: var(--theme_pinky--alt-colors-white);
   --theme_light--sidebar: var(--theme_pinky--alt-colors-transparent); 
-  --theme_light--overlay: var(--theme_pinky--lighten-5);
+  --theme_light--overlay: rgb(255, 192, 203, 0.6);
   --theme_light--dragarea: var(--theme_pinky--lighten-5);
   --theme_light--box-shadow: var(--theme_pinky--shadows-1) 0px 0px 0px 1px, var(--theme_pinky--shadows-1) 0px 2px 4px;
   --theme_light--box-shadow_strong: var(--theme_pinky--shadows-4) 0px 0px 0px 1px, var(--theme_pinky--shadows-2)  0px 3px 6px, var(--theme_pinky--shadows-3)  0px 9px 24px;
