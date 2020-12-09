@@ -25,7 +25,8 @@
   --light_pinky-trans-purple-1: #37352f06;
   --light_pinky-trans-purple-2: #8868ff1a;
   --light_pinky-trans-purple-3: #880e4f38;
-
+  --light_pinky-trans-purple-4: #8968ff42;
+  
   --light_pinky-trans-1: #ffc0cb61;
   --light_pinky-trans-2: #ffc0cb96;
   --light_pinky-trans-3: #ffc0cbb8;
@@ -85,7 +86,7 @@
   --theme_light--select_input: var(--light_pinky-trans-purple-2);
   --theme_light--table-border: var(--light_pinky-trans-purple-2);
   --theme_light--ui-border: var(--light_pinky-trans-purple-2);
-  --theme_light--interactive_hover: var(--theme_pinky--contrast-purple-blur);
+  --theme_light--interactive_hover: var(--light_pinky-trans-purple-4);
   --theme_light--interactive_hover-border: var(--light_pinky-alt-colors-transparent);
   --theme_light--button_close: #e81123;
   --theme_light--button_close-fill: var(--light_pinky-white);
