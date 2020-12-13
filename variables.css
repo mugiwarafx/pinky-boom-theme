@@ -90,7 +90,7 @@
   --theme_light--interactive_hover-border: var(--light_pinky-alt-colors-transparent);
   --theme_light--button_close: #e81123;
   --theme_light--button_close-fill: var(--light_pinky-white);
-  --theme_light--selected: var(--thene_pinky--purple-1-shadows);
+  --theme_light--selected: var(--light_pinky-trans-purple-4);
   --theme_light--primary: var(--light_pinky-deep-pink);
   --theme_light--primary_hover: var(--light_pinky-lighten-4);
   --theme_light--primary_click: var(--light_pinky-lighten-4);
