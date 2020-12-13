@@ -11,6 +11,6 @@ module.exports = {
     name: "Pinky Boom Theme",
     tags: ['theme', 'light', 'pink'],
     desc: "pinkify your light theme",
-    version: "0.0.1",
+    version: "1.0.0",
     author: "mugiwarafx",
 };
